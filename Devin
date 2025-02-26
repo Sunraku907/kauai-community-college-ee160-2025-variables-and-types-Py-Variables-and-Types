@@ -1,0 +1,38 @@
+# Step 1. Define 3 variables.
+
+int1 = 10000
+int2 = 3
+int3 = 0
+
+# Step 2. Subtracting, adding, multiplying, and dividing
+
+     #adding 10000+3
+addition = int3 + int2
+print (f"{int3} + {int2} = {addition}")
+
+      #subtracting 10000-3
+subtraction = int1 - int2
+print (f"{int1} - {int2} = {subtraction}")
+
+     #multiplying 10000*3
+multiply = int1 * int3
+print (f"{int1} x {int3} = {multiply}")
+
+     #dividing 10000/3
+divide = int1 / int2
+    # When dividing by 0, ZeroDivisionError: division by zero, occurs
+print (f"{int1} / {int2} = {divide}")
+
+# Step 3 Create two new variables with the values "hello" and "world"
+
+var1 = ("hello")
+var2 = ("world")
+
+    #using the 2 variables to print "hello world!"
+helloworld = var1 + " " + var2 + "!"
+print(helloworld)
+
+# Step 4 Changing an int variable to float
+print(type(int1)) #Output <class 'int'>
+int1 = float(int1)
+print(type(int1)) #Output <class 'float'>
